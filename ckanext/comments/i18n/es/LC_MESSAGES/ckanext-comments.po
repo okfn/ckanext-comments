@@ -1,0 +1,81 @@
+# Spanish translations for ckanext-comments.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the ckanext-comments
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ckanext-comments 0.3.1.post1\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-03-11 14:59+0000\n"
+"PO-Revision-Date: 2025-03-11 15:09+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ckanext/comments/assets/js/comments-thread.js:109
+#: ckanext/comments/templates/comments/snippets/comment.html:23
+#: ckanext/comments/templates/comments/snippets/comment.html:25
+msgid "Reply"
+msgstr "Responder"
+
+#: ckanext/comments/assets/js/comments-thread.js:112
+#: ckanext/comments/templates/comments/snippets/confirmation.html:21
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: ckanext/comments/assets/js/comments-thread.js:177
+msgid "An Error Occurred"
+msgstr "Ocurrió un error"
+
+#: ckanext/comments/assets/js/comments-thread.js:178
+msgid "Comment cannot be updated"
+msgstr "El comentario no se puede actualizar"
+
+#: ckanext/comments/templates/comments/snippets/comment.html:29
+#: ckanext/comments/templates/comments/snippets/comment.html:31
+msgid "Approve"
+msgstr "Aprobar"
+
+#: ckanext/comments/templates/comments/snippets/comment.html:35
+#: ckanext/comments/templates/comments/snippets/comment.html:37
+msgid "Edit"
+msgstr "Editar"
+
+#: ckanext/comments/templates/comments/snippets/comment.html:39
+#: ckanext/comments/templates/comments/snippets/comment.html:41
+#: ckanext/comments/templates/comments/snippets/comment_form.html:15
+msgid "Save"
+msgstr "Guardar"
+
+#: ckanext/comments/templates/comments/snippets/comment.html:48
+#: ckanext/comments/templates/comments/snippets/confirmation.html:22
+#: ckanext/comments/templates/comments/snippets/confirmation.html:23
+msgid "Remove"
+msgstr "Eliminar"
+
+#: ckanext/comments/templates/comments/snippets/comment_form.html:9
+msgid "Leave a comment"
+msgstr "Deja un comentario"
+
+#: ckanext/comments/templates/comments/snippets/comment_form.html:10
+msgid "Content"
+msgstr "Contenido"
+
+#: ckanext/comments/templates/comments/snippets/confirmation.html:12
+msgid "Confirmation window"
+msgstr "Ventana de confirmación"
+
+#: ckanext/comments/templates/comments/snippets/confirmation.html:18
+msgid "Are you sure you want to permanently delete this comment?"
+msgstr "¿Está seguro de que desea eliminar este comentario de forma permanente?"
+
+#: ckanext/comments/templates/comments/snippets/thread.html:15
+msgid "Comments"
+msgstr "Comentarios"
