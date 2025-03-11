@@ -59,4 +59,4 @@ class CommentsPlugin(plugins.SingletonPlugin, DefaultTranslation):
     def i18n_domain(self):
         """The domain for this plugin's translations."""
         # Return the translation domain for this plugin.
-        return "ckanext-dashboard"
+        return "ckanext-comments"
