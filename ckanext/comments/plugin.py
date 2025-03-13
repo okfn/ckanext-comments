@@ -1,5 +1,6 @@
 import ckan.plugins as plugins
 import ckan.plugins.toolkit as tk
+from ckan.lib.plugins import DefaultTranslation
 
 import ckanext.comments.helpers as helpers
 import ckanext.comments.logic.action as action
@@ -13,12 +14,13 @@ except AttributeError:
 
 
 @config_declarations
-class CommentsPlugin(plugins.SingletonPlugin):
+class CommentsPlugin(plugins.SingletonPlugin, DefaultTranslation):
     plugins.implements(plugins.IConfigurer)
     plugins.implements(plugins.IAuthFunctions)
     plugins.implements(plugins.IActions)
     plugins.implements(plugins.ITemplateHelpers)
     plugins.implements(plugins.IValidators)
+    plugins.implements(plugins.ITranslation)
 
     # IConfigurer
 
@@ -46,3 +48,15 @@ class CommentsPlugin(plugins.SingletonPlugin):
 
     def get_validators(self):
         return validators.get_validators()
+
+    # ITranslation
+
+    def i18n_locales(self):
+        """Lanaguages this plugin has translations for."""
+        # Return a list of languages that this plugin has translations for.
+        return ["es", "en"]
+
+    def i18n_domain(self):
+        """The domain for this plugin's translations."""
+        # Return the translation domain for this plugin.
+        return "ckanext-comments"
